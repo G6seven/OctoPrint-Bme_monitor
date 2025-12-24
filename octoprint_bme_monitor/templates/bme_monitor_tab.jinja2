@@ -1,0 +1,29 @@
+<div id="tab_plugin_xxxx">
+    <h3>Senzory Arduino (BME)</h3>
+    
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Senzor</th>
+                <th>Temperature [°C]</th>
+                <th>Humidity [%]</th>
+                <th>Pressure [hPa]</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><strong>BME 1</strong></td>
+                <td data-bind="text: bme1.temp"></td>
+                <td data-bind="text: bme1.hum"></td>
+                <td data-bind="text: bme1.pres"></td>
+            </tr>
+            <tr>
+                <td><strong>BME 2</strong></td>
+                <td data-bind="text: bme2.temp"></td>
+                <td data-bind="text: bme2.hum"></td>
+                <td data-bind="text: bme2.pres"></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+

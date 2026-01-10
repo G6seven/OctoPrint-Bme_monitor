@@ -34,7 +34,7 @@ class Bme_monitorPlugin(
             self._timer = RepeatedTimer(2.0, self.read_serial_data)
             self._timer.start()
         except Exception as e:
-            self._logger.error(f"Nelze otevřít sériový port: {e}")
+            self._logger.error(f"Cant open serial com: {e}")
 
     def read_serial_data(self):
         if self.ser.in_waiting > 0:
@@ -55,11 +55,12 @@ class Bme_monitorPlugin(
                         "hum": parts[2],
                         "pres": f"{hpa_pressure:.2f}"
                     }
-                    # This is supposed to send the data to the js 
+                    # This is supposed to send the data to the js
+                    self._logger.info(f"sending sensor data to js: {self.sensors_data}") 
                     self._plugin_manager.send_plugin_message(self._identifier, self.sensors_data)
 
             except Exception as e:
-                self._logger.error(f"Chyba při čtení sériové linky: {e}")
+                self._logger.error(f"error somewhere on serial com: {e}")
                 self._logger.info(parts)
 # this will create huge spam in logs---           self._logger.info(parts)
 

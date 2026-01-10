@@ -29,7 +29,7 @@ class Bme_monitorPlugin(
         }
         # initialization of serial com
         try:
-            self.ser = serial.Serial('/dev/ttyACM1', 9600, timeout=1)
+            self.ser = serial.Serial('/dev/serial/by-id/usb-Arduino__www.arduino.cc__0043_24230303637351411141-if00', 9600, timeout=1)
             # periodically read serial every 2.0 secconds
             self._timer = RepeatedTimer(2.0, self.read_serial_data)
             self._timer.start()

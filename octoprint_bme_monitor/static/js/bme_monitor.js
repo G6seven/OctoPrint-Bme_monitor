@@ -15,8 +15,8 @@ $(function() {
         // Příjem dat z backendu
         self.onDataUpdaterPluginMessage = function(plugin, data)
         {
-//            if (plugin !== "octoprint_bme_monitor") return; // Název složky vašeho pluginu
-            
+            if (plugin !== "bme_monitor") return; // Název složky vašeho pluginu
+            console.log("Data přijata:", data);
             if (data.bme1) {
                 self.bme1.temp(data.bme1.temp);
                 self.bme1.hum(data.bme1.hum);

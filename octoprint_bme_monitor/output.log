@@ -1,0 +1,500 @@
+2026-01-04 21:45:45,699 - octoprint.plugins.bme_monitor - INFO - Bme_monitor Plugin startuje...
+2026-01-04 21:45:45,747 - octoprint.plugins.dashboard - INFO - Dashboard started
+2026-01-04 21:45:45,753 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 14, 'printer_state': 'OFFLINE'}
+2026-01-04 21:45:45,755 - octoprint.JsFrontendErrors(Dash) - INFO - Js Logger (Dash) started
+2026-01-04 21:45:45,761 - octoprint.plugins.enclosure - INFO - mqtt helpers not found. mqtt functions won't work
+2026-01-04 21:45:45,767 - octoprint.plugins.enclosure - INFO - Setting GPIO mode to BCM
+2026-01-04 21:45:45,768 - octoprint.plugins.enclosure - INFO - Setting GPIO pin 17 as OUTPUT with initial value: 0
+2026-01-04 21:45:45,778 - octoprint.plugins.uicustomizer - INFO - UI Customizer is initialized.
+2026-01-04 21:45:45,792 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'https://octopi.theotherside.work/', 'path': '/', 'query_string': 'l10n=en'}
+2026-01-04 21:45:45,826 - octoprint.plugins.tracking - INFO - Sent tracking event pong, payload: {'version': '1.11.4', 'os': 'linux', 'platform': 'Linux-6.1.21-v7l+-armv7l-with-glibc2.31', 'bits': 32, 'python': '3.9.2', 'pip': '22.3', 'cores': 4, 'freq': 1800.0, 'ram': 3970777088, 'pi_model': 'Raspberry Pi 4 Model B Rev 1.4', 'octopi_version': '1.0.0', 'octopiuptodate_build': '1.0.0-1.11.0-20250422120926', 'plugins': 'cancelobject:0.6.3,ultimakerformatpackage:1.1.0,dashboard:1.19.12,printscheduler:1.0.2,backupscheduler:0.2.6,spoolmanager:1.8.0a3,powerfailure:1.2.2,arc_welder:1.0.0+u.bb71e8f,bedlevelvisualizer:1.1.2,enclosure:4.13.2,consolidate_temp_control:0.1.10,octolapse:0.4.5,uicustomizer:0.1.9.91,printjobhistory:1.17.3,bme_monitor:0.1.0,firmwareupdater:1.14.1,prusalevelingguide:1.0.20,simpleemergencystop:1.0.7,costestimation:3.6.0,octoapp:3.0.2,prusaslicerthumbnails:1.2.0,prusa_mini_eta:0.1.4,preheat:0.8.0,printtimegenius:2.4.0,filemanager:0.1.6', 'achievements': 'the_wizard,tgif,all_beginnings_are_hard,one_small_step_for_man,the_organizer,early_bird,better_safe_than_sorry,adventurer,the_manufacturer_i,half_marathon,tinkerer,night_owl,the_collector_i,marathon,clean_house_i,santas_little_helper,happy_birthday_octoprint'}
+2026-01-04 21:45:45,880 - octoprint.plugins.tracking - INFO - Sent tracking event startup, payload: {'version': '1.11.4', 'os': 'linux', 'platform': 'Linux-6.1.21-v7l+-armv7l-with-glibc2.31', 'bits': 32, 'python': '3.9.2', 'pip': '22.3', 'cores': 4, 'freq': 1800.0, 'ram': 3970777088, 'pi_model': 'Raspberry Pi 4 Model B Rev 1.4', 'octopi_version': '1.0.0', 'octopiuptodate_build': '1.0.0-1.11.0-20250422120926'}
+2026-01-04 21:45:48,304 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 21:45:50,383 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:45:50,389 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:45:50,500 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:45:50,500 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:45:50,598 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:45:50,598 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:45:51,383 - octoprint.plugins.uicustomizer - INFO - Checking for updated themes
+2026-01-04 21:45:59,058 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/logitech_c920.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/logitech_c920.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 21:45:59,063 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/logitech_c920.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/logitech_c920.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 21:45:59,081 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/raspi_cam_v2.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/raspi_cam_v2.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 21:45:59,095 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/raspi_cam_v2.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/raspi_cam_v2.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 21:45:59,110 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/logitech_c250.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/logitech_c250.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 21:45:59,135 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/logitech_c250.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/logitech_c250.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 21:46:04,657 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:46:04,657 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:46:05,204 - octoprint.server.preemptive_cache - INFO - ... done in 19.41s
+2026-01-04 21:46:06,750 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:46:06,781 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:46:07,279 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:46:07,279 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:46:10,405 - tornado.access - WARNING - 403 GET /sockjs/801/31pruquh/websocket (141.170.144.197) 3.61ms
+2026-01-04 21:46:10,526 - octoprint.server.util.sockjs - INFO - New connection from client: 141.170.144.197
+2026-01-04 21:46:10,541 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 21:46:10,991 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:46:10,992 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:46:13,516 - octoprint.plugins.PrusaLevelingGuide - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 21:46:13,716 - octoprint.plugins.tracking - INFO - Sent tracking event webui_load, payload: {'browser_name': 'Firefox', 'browser_version': '146.0', 'os_name': 'Linux', 'os_version': 'x86_64'}
+2026-01-04 21:46:14,490 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:46:14,490 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:46:14,800 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 21:46:14,801 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 21:46:16,158 - octoprint.server.util.sockjs - INFO - User admin logged in on the socket from client 141.170.144.197
+2026-01-04 21:47:50,402 - tornado.access - WARNING - 403 GET /sockjs/631/5i14l2bc/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 3.46ms
+2026-01-04 21:47:50,472 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 21:47:50,486 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 21:49:55,892 - tornado.access - WARNING - 403 GET /sockjs/946/4fhy0ilo/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 2.19ms
+2026-01-04 21:49:55,958 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 21:49:55,971 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 21:52:01,365 - tornado.access - WARNING - 403 GET /sockjs/830/er04xiz5/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 3.16ms
+2026-01-04 21:52:01,421 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 21:52:01,439 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 21:54:06,854 - tornado.access - WARNING - 403 GET /sockjs/225/q45ber3b/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 2.05ms
+2026-01-04 21:54:06,912 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 21:54:06,928 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 21:56:12,313 - tornado.access - WARNING - 403 GET /sockjs/444/2rrw4vmw/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 3.46ms
+2026-01-04 21:56:12,380 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 21:56:12,404 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 21:58:17,907 - tornado.access - WARNING - 403 GET /sockjs/545/pmqv2oi4/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 2.45ms
+2026-01-04 21:58:17,975 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 21:58:17,992 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:00:15,332 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:00:15,332 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:00:15,561 - tornado.access - WARNING - 403 GET /sockjs/537/izwofzm0/websocket (141.170.144.197) 1.21ms
+2026-01-04 22:00:15,677 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:00:15,677 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:00:16,270 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:00:16,271 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:00:16,293 - octoprint.server.util.sockjs - INFO - Client connection closed: 141.170.144.197
+2026-01-04 22:00:17,466 - tornado.access - WARNING - 403 GET /sockjs/714/uadzt41b/websocket (141.170.144.197) 1.70ms
+2026-01-04 22:00:17,524 - octoprint.server.util.sockjs - INFO - New connection from client: 141.170.144.197
+2026-01-04 22:00:17,530 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:00:17,856 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:00:17,856 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:00:20,062 - octoprint.plugins.PrusaLevelingGuide - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:00:20,454 - octoprint.plugins.tracking - INFO - Sent tracking event webui_load, payload: {'browser_name': 'Firefox', 'browser_version': '146.0', 'os_name': 'Linux', 'os_version': 'x86_64'}
+2026-01-04 22:00:20,763 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:00:20,765 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:00:20,765 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:00:20,768 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:00:23,369 - tornado.access - WARNING - 403 GET /sockjs/856/awudqfjs/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 1.96ms
+2026-01-04 22:00:23,424 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 22:00:23,437 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:00:23,529 - octoprint.server.util.sockjs - INFO - User admin logged in on the socket from client 141.170.144.197
+2026-01-04 22:00:36,818 - octoprint.server.heartbeat - INFO - Server heartbeat <3
+2026-01-04 22:00:45,108 - octoprint.server.util.sockjs - INFO - Client connection closed: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 22:00:45,130 - octoprint.server.util.sockjs - INFO - Client connection closed: 141.170.144.197
+2026-01-04 22:00:45,746 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 914, 'printer_state': 'OFFLINE'}
+2026-01-04 22:02:28,884 - tornado.access - WARNING - 403 GET /sockjs/284/njo2hmdq/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 2.93ms
+2026-01-04 22:02:28,952 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 22:02:28,969 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:02:50,485 - octoprint.server.util.sockjs - INFO - Client connection closed: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 22:04:34,374 - tornado.access - WARNING - 403 GET /sockjs/618/d1sniuzu/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 3.29ms
+2026-01-04 22:04:34,428 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 22:04:34,444 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:04:55,971 - octoprint.server.util.sockjs - INFO - Client connection closed: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 22:06:34,958 - octoprint.startup - INFO - ******************************************************************************
+2026-01-04 22:06:34,959 - octoprint.startup - INFO - Starting OctoPrint 1.11.4
+2026-01-04 22:06:34,963 - octoprint.startup - INFO - ******************************************************************************
+2026-01-04 22:06:35,026 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity changed from offline to online
+2026-01-04 22:06:35,036 - octoprint.util.connectivity.connectivity_checker - INFO - Connectivity state is currently: online
+2026-01-04 22:06:35,036 - octoprint.util.connectivity.connectivity_checker - INFO - Connecting to 1.1.1.1:53 is working
+2026-01-04 22:06:35,036 - octoprint.util.connectivity.connectivity_checker - INFO - Resolving octoprint.org is working
+2026-01-04 22:06:35,157 - octoprint.startup - INFO - Blacklist processing done, adding 4 blacklisted plugin versions: roomtemp (any), GcodeEditor (>=0.1.1,<=0.2.8), gcodeleveling (>=0.1.0,<=0.1.1), PrintTimeGenius (<2.3.4)
+2026-01-04 22:06:35,160 - octoprint.plugin.core - INFO - Loading plugins from /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins, /home/g6seven/.octoprint/plugins and installed plugin packages...
+2026-01-04 22:06:38,330 - octoprint.startup - INFO - Added settings overlay from plugin dashboard
+2026-01-04 22:06:38,363 - octoprint.startup - INFO - Added settings overlay from plugin consolidate_temp_control
+2026-01-04 22:06:38,409 - octoprint.plugin.core - INFO - Found 48 plugin(s) providing 48 mixin implementations, 136 hook handlers
+2026-01-04 22:06:38,412 - octoprint.server.heartbeat - INFO - Starting server heartbeat, 900.0s interval
+2026-01-04 22:06:38,488 - octoprint.server - INFO - Intermediary server started
+2026-01-04 22:06:38,506 - octoprint.filemanager.storage - INFO - Initializing the file metadata for /home/g6seven/.octoprint/uploads...
+2026-01-04 22:06:38,863 - octoprint.filemanager.storage - INFO - ... file metadata for /home/g6seven/.octoprint/uploads initialized successfully.
+2026-01-04 22:06:38,868 - octoprint.server - INFO - Added new permission from plugin PrintJobHistory: PLUGIN_PRINTJOBHISTORY_DELETE_JOB (needs: "Need(method='role', value='plugin_PrintJobHistory_print_operator')")
+2026-01-04 22:06:38,868 - octoprint.server - INFO - Added new permission from plugin PrintJobHistory: PLUGIN_PRINTJOBHISTORY_EDIT_JOB (needs: "Need(method='role', value='plugin_PrintJobHistory_print_operator')")
+2026-01-04 22:06:38,868 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_VIEW (needs: "Need(method='role', value='plugin_achievements_view')")
+2026-01-04 22:06:38,868 - octoprint.server - INFO - Added new permission from plugin achievements: PLUGIN_ACHIEVEMENTS_RESET (needs: "Need(method='role', value='plugin_achievements_reset')")
+2026-01-04 22:06:38,869 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_SHOW (needs: "Need(method='role', value='plugin_action_command_notification_show')")
+2026-01-04 22:06:38,869 - octoprint.server - INFO - Added new permission from plugin action_command_notification: PLUGIN_ACTION_COMMAND_NOTIFICATION_CLEAR (needs: "Need(method='role', value='plugin_action_command_notification_clear')")
+2026-01-04 22:06:38,869 - octoprint.server - INFO - Added new permission from plugin action_command_prompt: PLUGIN_ACTION_COMMAND_PROMPT_INTERACT (needs: "Need(method='role', value='plugin_action_command_prompt_interact')")
+2026-01-04 22:06:38,869 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_READ (needs: "Need(method='role', value='plugin_announcements_read')")
+2026-01-04 22:06:38,870 - octoprint.server - INFO - Added new permission from plugin announcements: PLUGIN_ANNOUNCEMENTS_MANAGE (needs: "Need(method='role', value='plugin_announcements_read'), Need(method='role', value='plugin_announcements_manage')")
+2026-01-04 22:06:38,870 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_ADMIN (needs: "Need(method='role', value='plugin_appkeys_admin')")
+2026-01-04 22:06:38,871 - octoprint.server - INFO - Added new permission from plugin appkeys: PLUGIN_APPKEYS_GRANT (needs: "Need(method='role', value='plugin_appkeys_user')")
+2026-01-04 22:06:38,871 - octoprint.server - INFO - Added new permission from plugin backup: PLUGIN_BACKUP_CREATE (needs: "Need(method='role', value='plugin_backup_create')")
+2026-01-04 22:06:38,871 - octoprint.server - INFO - Added new permission from plugin dashboard: PLUGIN_DASHBOARD_ADMIN (needs: "Need(method='role', value='plugin_dashboard_admin')")
+2026-01-04 22:06:38,871 - octoprint.server - INFO - Added new permission from plugin file_check: PLUGIN_FILE_CHECK_RUN (needs: "Need(method='role', value='plugin_file_check_run')")
+2026-01-04 22:06:38,871 - octoprint.server - INFO - Added new permission from plugin firmware_check: PLUGIN_FIRMWARE_CHECK_DISPLAY (needs: "Need(method='role', value='plugin_firmware_check_display')")
+2026-01-04 22:06:38,872 - octoprint.server - INFO - Added new permission from plugin health_check: PLUGIN_HEALTH_CHECK_CHECK (needs: "Need(method='role', value='plugin_health_check_check')")
+2026-01-04 22:06:38,872 - octoprint.server - INFO - Added new permission from plugin logging: PLUGIN_LOGGING_MANAGE (needs: "Need(method='role', value='plugin_logging_manage')")
+2026-01-04 22:06:38,872 - octoprint.server - INFO - Added new permission from plugin octoapp: PLUGIN_OCTOAPP_RECEIVE_NOTIFICATIONS (needs: "Need(method='role', value='plugin_octoapp_admin')")
+2026-01-04 22:06:38,872 - octoprint.server - INFO - Added new permission from plugin octoapp: PLUGIN_OCTOAPP_GET_DATA (needs: "Need(method='role', value='plugin_octoapp_admin')")
+2026-01-04 22:06:38,873 - octoprint.server - INFO - Added new permission from plugin pi_support: PLUGIN_PI_SUPPORT_STATUS (needs: "Need(method='role', value='plugin_pi_support_check')")
+2026-01-04 22:06:38,876 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_LIST (needs: "Need(method='role', value='plugin_pluginmanager_list')")
+2026-01-04 22:06:38,877 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_MANAGE (needs: "Need(method='role', value='plugin_pluginmanager_manage')")
+2026-01-04 22:06:38,878 - octoprint.server - INFO - Added new permission from plugin pluginmanager: PLUGIN_PLUGINMANAGER_INSTALL (needs: "Need(method='role', value='plugin_pluginmanager_install'), Need(method='role', value='plugin_pluginmanager_manage')")
+2026-01-04 22:06:38,879 - octoprint.server - INFO - Added new permission from plugin prusaslicerthumbnails: PLUGIN_PRUSASLICERTHUMBNAILS_SCAN (needs: "Need(method='role', value='plugin_prusaslicerthumbnails_admin')")
+2026-01-04 22:06:38,880 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CHECK (needs: "Need(method='role', value='plugin_softwareupdate_check')")
+2026-01-04 22:06:38,881 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_UPDATE (needs: "Need(method='role', value='plugin_softwareupdate_update')")
+2026-01-04 22:06:38,882 - octoprint.server - INFO - Added new permission from plugin softwareupdate: PLUGIN_SOFTWAREUPDATE_CONFIGURE (needs: "Need(method='role', value='plugin_softwareupdate_configure')")
+2026-01-04 22:06:38,896 - octoprint.printer.standard - INFO - Using print time estimator provided by PrintTimeGenius
+2026-01-04 22:06:38,897 - octoprint.printer.standard - INFO - Using print time estimator provided by prusa_mini_eta
+2026-01-04 22:06:39,156 - octoprint.plugins.healthcheck.python_eol - INFO - Fetched Python EOL data from https://get.octoprint.org/python-eol
+2026-01-04 22:06:39,168 - octoprint.plugins.health_check - WARNING - Health check detected problems!
+  Issues:
+  - python_eol: {'version': '3.9.2', 'date': '2025-10-31', 'soon': False, 'last_octoprint': '1.12.*'}
+
+2026-01-04 22:06:39,848 - octoprint.util.pip - INFO - Using "/home/g6seven/oprint/bin/python -m pip" as command to invoke pip
+2026-01-04 22:06:40,689 - octoprint.util.pip - INFO - Version of pip is 22.3
+2026-01-04 22:06:40,694 - octoprint.util.pip - INFO - pip installs to /home/g6seven/oprint/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2026-01-04 22:06:40,694 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2026-01-04 22:06:40,720 - octoprint.plugins.achievements - INFO - Loading data from /home/g6seven/.octoprint/data/achievements/data.json
+2026-01-04 22:06:40,722 - octoprint.plugins.achievements - INFO - Loading data for None from /home/g6seven/.octoprint/data/achievements/2026.json
+2026-01-04 22:06:40,900 - octoprint.plugins.softwareupdate - INFO - Loaded version cache from disk
+2026-01-04 22:06:40,916 - octoprint.plugins.softwareupdate - INFO - Cleaned up -5 old update log entries
+2026-01-04 22:06:40,917 - octoprint.plugins.softwareupdate - INFO - Loaded update log from disk
+2026-01-04 22:06:40,961 - octoprint.plugins.cancelobject - INFO - No beforegcode defined
+2026-01-04 22:06:40,961 - octoprint.plugins.cancelobject - INFO - No aftergcode defined
+2026-01-04 22:06:41,058 - octoprint.plugins.file_check - INFO - Native grep available: True
+2026-01-04 22:06:41,081 - octoprint.plugins.SpoolManager - INFO - Start initializing
+2026-01-04 22:06:41,088 - octoprint.plugins.SpoolManager.DatabaseManager - INFO - Init DatabaseManager
+2026-01-04 22:06:41,088 - octoprint.plugins.SpoolManager.DatabaseManager - INFO - Databasefile '/home/g6seven/.octoprint/data/SpoolManager/spoolmanager.db' exists: True
+2026-01-04 22:06:41,093 - octoprint.plugins.SpoolManager.DatabaseManager - INFO - Check if database-scheme upgrade needed...
+2026-01-04 22:06:41,101 - octoprint.plugins.SpoolManager.DatabaseManager - INFO - Current databasescheme: 7
+2026-01-04 22:06:41,101 - octoprint.plugins.SpoolManager.DatabaseManager - INFO - ...Database-scheme upgraded not needed.
+2026-01-04 22:06:41,101 - octoprint.plugins.SpoolManager.DatabaseManager - INFO - Database created-check done
+2026-01-04 22:06:41,119 - octoprint.plugins.SpoolManager - INFO - Done initializing
+2026-01-04 22:06:41,186 - octoprint.plugins.PrintJobHistory - INFO - Start initializing
+2026-01-04 22:06:41,187 - octoprint.plugins.PrintJobHistory.DatabaseManager - INFO - Init DatabaseManager
+2026-01-04 22:06:41,187 - octoprint.plugins.PrintJobHistory.DatabaseManager - INFO - Using database in: /home/g6seven/.octoprint/data/PrintJobHistory/printJobHistory.db
+2026-01-04 22:06:41,190 - octoprint.plugins.PrintJobHistory.DatabaseManager - INFO - Check if database-scheme upgrade needed.
+2026-01-04 22:06:41,194 - octoprint.plugins.PrintJobHistory.DatabaseManager - INFO - Done DatabaseManager.createDatabase
+2026-01-04 22:06:41,194 - octoprint.plugins.PrintJobHistory.CameraManager - INFO - Init CameraManager
+2026-01-04 22:06:41,195 - octoprint.plugins.PrintJobHistory.CameraManager - INFO - Snapshot-Folder:/home/g6seven/.octoprint/data/PrintJobHistory/snapshots
+2026-01-04 22:06:41,196 - octoprint.plugins.PrintJobHistory.CameraManager - INFO - Done CameraMenager
+2026-01-04 22:06:41,282 - octoprint.plugins.PrintJobHistory - INFO - Done initializing
+2026-01-04 22:06:41,313 - octoprint.plugins.firmwareupdater - INFO - Python binproto2 package installed: False
+2026-01-04 22:06:41,362 - octoprint.plugin.core - INFO - Initialized 48 plugin implementation(s)
+2026-01-04 22:06:41,901 - octoprint - INFO - Installing webcam compat overlay for configured default webcam <octoprint.webcams.ProvidedWebcam object at 0xac244eb0>
+2026-01-04 22:06:41,903 - octoprint.plugin.core - INFO - 48 plugin(s) registered with the system (23 bundled & 25 third party):
+| Bundled Plugins (23)
+|   Achievements Plugin (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/achievements
+|   Action Command Notification Support (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/action_command_notification
+|   Action Command Prompt Support (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/action_command_prompt
+|   Announcement Plugin (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/announcements
+|   Anonymous Usage Tracking (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/tracking
+|   Application Keys Plugin (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/appkeys
+|   Backup & Restore (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/backup
+|   Classic Webcam (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/classicwebcam
+|   Core Wizard (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/corewizard
+|   Custom Control Manager (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/customcontrolmanager
+|   Discovery (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/discovery
+|   Error Tracking (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/errortracking
+|   Event Manager (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/eventmanager
+|   File Check (2025.7.23) (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_file_check
+|   Firmware Check (2025.7.23) (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_firmware_check
+|   GCode Viewer (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/gcodeviewer
+|   Healthcheck Plugin (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/health_check
+|   Logging (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/logging
+|   Pi Support Plugin (2025.7.23) (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_pi_support
+|   Plugin Manager (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/pluginmanager
+|   Software Update (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/softwareupdate
+|   Upload Manager (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/uploadmanager
+|   Virtual Printer (bundled) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint/plugins/virtual_printer
+| Third Party Plugins (25)
+|   Arc-Welder (1.0.0+u.bb71e8f) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_arc_welder
+|   Backup Scheduler (0.2.6) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_backupscheduler
+|   Bed Visualizer (1.1.2) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_bedlevelvisualizer
+|   Bme_monitor Plugin (0.1.0) = /home/g6seven/OctoPrint-Bme_monitor/octoprint_bme_monitor
+|   Cancel Objects (0.6.3) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_cancelobject
+|   Consolidate Temp Control (0.1.10) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_consolidate_temp_control
+|   Cost Estimation (3.6.0) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_costestimation
+|   Cura Thumbnails (1.1.0) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_ultimakerformatpackage
+|   Dashboard (1.19.12) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_dashboard
+|   Enclosure Plugin (4.13.2) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_enclosure
+|   FileManager (0.1.6) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_filemanager
+|   Firmware Updater (1.14.1) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_firmwareupdater
+|   OctoApp (3.0.2) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octoapp
+|   Octolapse (0.4.5) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse
+|   Power Failure Recovery (1.2.2) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_powerfailure
+|   Preheat Button (0.8.0) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_preheat
+|   Print Scheduler (1.0.2) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_printscheduler
+|   PrintJobHistory (1.17.3) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_PrintJobHistory
+|   PrintTimeGenius Plugin (2.4.0) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_PrintTimeGenius
+|   Prusa Leveling Guide (1.0.20) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_PrusaLevelingGuide
+|   Prusa Mini ETA Plugin (0.1.4) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_prusa_mini_eta
+|   Simple Emergency Stop (1.0.7) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_simpleemergencystop
+|   Slicer Thumbnails (1.2.0) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_prusaslicerthumbnails
+|   SpoolManager Plugin (1.8.0a3) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_SpoolManager
+|   UI Customizer (0.1.9.91) = /home/g6seven/oprint/lib/python3.9/site-packages/octoprint_uicustomizer
+Prefix legend: ! = disabled, # = blacklisted, * = incompatible
+2026-01-04 22:06:41,950 - octoprint.environment - INFO - Detected environment is Python 3.9.2 under Linux (Linux-6.1.21-v7l+-armv7l-with-glibc2.31). Details:
+|  hardware:
+|    cores: 4
+|    freq: 1800.0
+|    ram: 3970777088
+|  os:
+|    bits: 32
+|    id: linux
+|    platform: Linux-6.1.21-v7l+-armv7l-with-glibc2.31
+|  plugins:
+|    pi_support:
+|      model: Raspberry Pi 4 Model B Rev 1.4
+|      octopi_camera_stack: camera-streamer
+|      octopi_version: 1.0.0
+|      octopiuptodate_build: 1.0.0-1.11.0-20250422120926
+|      octopiuptodate_build_short: 2025.04.22.120926
+|      throttle_check_enabled: true
+|      throttle_check_functional: true
+|      throttle_state: '0x0'
+|  python:
+|    pip: '22.3'
+|    version: 3.9.2
+|    virtualenv: /home/g6seven/oprint
+2026-01-04 22:06:41,955 - octoprint.plugins.PrintJobHistory - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,955 - octoprint.plugins.PrintTimeGenius - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,956 - octoprint.plugins.PrusaLevelingGuide - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,957 - octoprint.plugins.SpoolManager - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,958 - octoprint.plugins.UltimakerFormatPackage - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,960 - octoprint.plugins.arc_welder - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,961 - octoprint.plugins.bedlevelvisualizer - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,962 - octoprint.plugins.bme_monitor - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,963 - octoprint.plugins.cancelobject - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,964 - octoprint.plugins.consolidate_temp_control - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,965 - octoprint.plugins.costestimation - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,966 - octoprint.plugins.dashboard - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,967 - octoprint.plugins.enclosure - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,969 - octoprint.plugins.filemanager - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,970 - octoprint.plugins.firmwareupdater - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,971 - octoprint.plugins.octoapp - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,972 - octoprint.plugins.octolapse - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,972 - octoprint.plugins.powerfailure - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,973 - octoprint.plugins.preheat - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,973 - octoprint.plugins.printscheduler - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,973 - octoprint.plugins.prusa_mini_eta - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,973 - octoprint.plugins.prusaslicerthumbnails - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,974 - octoprint.plugins.simpleemergencystop - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,974 - octoprint.plugins.uicustomizer - WARNING - The templates of this plugin are currently not being autoescaped. This has potential security implications. For that reason OctoPrint 1.13.0 will globally enforce autoescaping. Plugin authors seeing this should read https://faq.octoprint.org/plugin-autoescape.
+2026-01-04 22:06:41,989 - octoprint.server - INFO - Reset webasset folder /home/g6seven/.octoprint/generated/webassets...
+2026-01-04 22:06:41,990 - octoprint.server - INFO - Reset webasset folder /home/g6seven/.octoprint/generated/.webassets-cache...
+2026-01-04 22:06:41,990 - octoprint.server - INFO - Reset webasset folder /home/g6seven/.octoprint/generated/.webassets-manifest.json...
+2026-01-04 22:06:42,025 - octoprint.timelapse - INFO - Enabled rendering queue processing
+2026-01-04 22:06:42,088 - octoprint.plugins.arc_welder - WARNING - The Blueprint of this plugin is relying on the default implementation of is_blueprint_csrf_protected (newly added in OctoPrint 1.8.3), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the CSRF protection status in their BlueprintPlugin mixin implementation. Recommendation is to enable CSRF protection and exempt views that must not use it with the octoprint.plugin.BlueprintPlugin.csrf_exempt decorator.
+2026-01-04 22:06:42,088 - octoprint.server - WARNING - CSRF Protection for Blueprint of plugin arc_welder is DISABLED
+2026-01-04 22:06:42,090 - octoprint.plugins.bedlevelvisualizer - WARNING - The Blueprint of this plugin is relying on the default implementation of is_blueprint_csrf_protected (newly added in OctoPrint 1.8.3), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the CSRF protection status in their BlueprintPlugin mixin implementation. Recommendation is to enable CSRF protection and exempt views that must not use it with the octoprint.plugin.BlueprintPlugin.csrf_exempt decorator.
+2026-01-04 22:06:42,090 - octoprint.server - WARNING - CSRF Protection for Blueprint of plugin bedlevelvisualizer is DISABLED
+2026-01-04 22:06:42,093 - octoprint.plugins.costestimation - WARNING - The Blueprint of this plugin is relying on the default implementation of is_blueprint_csrf_protected (newly added in OctoPrint 1.8.3), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the CSRF protection status in their BlueprintPlugin mixin implementation. Recommendation is to enable CSRF protection and exempt views that must not use it with the octoprint.plugin.BlueprintPlugin.csrf_exempt decorator.
+2026-01-04 22:06:42,093 - octoprint.server - WARNING - CSRF Protection for Blueprint of plugin costestimation is DISABLED
+2026-01-04 22:06:42,096 - octoprint.plugins.enclosure - WARNING - The Blueprint of this plugin is relying on the default implementation of is_blueprint_csrf_protected (newly added in OctoPrint 1.8.3), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the CSRF protection status in their BlueprintPlugin mixin implementation. Recommendation is to enable CSRF protection and exempt views that must not use it with the octoprint.plugin.BlueprintPlugin.csrf_exempt decorator.
+2026-01-04 22:06:42,096 - octoprint.server - WARNING - CSRF Protection for Blueprint of plugin enclosure is DISABLED
+2026-01-04 22:06:42,098 - octoprint.plugins.filemanager - WARNING - The Blueprint of this plugin is relying on the default implementation of is_blueprint_csrf_protected (newly added in OctoPrint 1.8.3), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the CSRF protection status in their BlueprintPlugin mixin implementation. Recommendation is to enable CSRF protection and exempt views that must not use it with the octoprint.plugin.BlueprintPlugin.csrf_exempt decorator.
+2026-01-04 22:06:42,098 - octoprint.server - WARNING - CSRF Protection for Blueprint of plugin filemanager is DISABLED
+2026-01-04 22:06:42,103 - octoprint.plugins.octolapse - WARNING - The Blueprint of this plugin is relying on the default implementation of is_blueprint_csrf_protected (newly added in OctoPrint 1.8.3), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the CSRF protection status in their BlueprintPlugin mixin implementation. Recommendation is to enable CSRF protection and exempt views that must not use it with the octoprint.plugin.BlueprintPlugin.csrf_exempt decorator.
+2026-01-04 22:06:42,103 - octoprint.server - WARNING - CSRF Protection for Blueprint of plugin octolapse is DISABLED
+2026-01-04 22:06:42,491 - octoprint.plugins.PrintJobHistory - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,491 - octoprint.plugins.PrusaLevelingGuide - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.SpoolManager - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.UltimakerFormatPackage - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.bedlevelvisualizer - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.cancelobject - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.dashboard - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.octoapp - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.preheat - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,492 - octoprint.plugins.prusaslicerthumbnails - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,493 - octoprint.plugins.simpleemergencystop - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:06:42,527 - octoprint.plugins.firmwareupdater - INFO - Setting maximum upload size for /flash to 5243904
+2026-01-04 22:06:42,527 - octoprint.server - INFO - Shutting down intermediary server...
+2026-01-04 22:06:42,922 - octoprint.server - INFO - Intermediary server shut down
+2026-01-04 22:06:42,926 - octoprint.events - INFO - Processing startup event, this is our first event
+2026-01-04 22:06:42,927 - octoprint.events - INFO - Adding 3 events to queue that were held back before startup event
+2026-01-04 22:06:42,927 - octoprint.filemanager - INFO - Adding backlog items from all storage types to analysis queue...
+2026-01-04 22:06:42,935 - octoprint.server - INFO - Starting autorefresh of serial port list
+2026-01-04 22:06:42,958 - octoprint.server.util.watchdog - INFO - Running initial scan on watched folder...
+2026-01-04 22:06:42,983 - octoprint.plugins.softwareupdate - INFO - Fetching check overlays from https://plugins.octoprint.org/update_check_overlay.json
+2026-01-04 22:06:43,004 - octoprint.server.util.watchdog - INFO - ... initial scan done.
+2026-01-04 22:06:43,023 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2026-01-04 22:06:43,052 - octoprint.server - INFO - Serial port list was updated, refreshing the port list in the frontend
+2026-01-04 22:06:43,103 - octoprint.plugins.tracking - INFO - Sent tracking event system_unthrottled, payload: {'throttled_now': False, 'throttled_past': False, 'throttled_mask': 0, 'throttled_voltage_now': False, 'throttled_voltage_past': False, 'throttled_overheat_now': False, 'throttled_overheat_past': False}
+2026-01-04 22:06:43,291 - octoprint.settings - WARNING - DeprecationWarning: Detected access to deprecated settings path ['webcam', 'snapshot'], returned value is derived from compatibility overlay. Please use the webcam system introduced with 1.9.0, this compatibility layer will be removed in a future release.
+2026-01-04 22:06:43,295 - octoprint.settings - WARNING - DeprecationWarning: Detected access to deprecated settings path ['webcam', 'stream'], returned value is derived from compatibility overlay. Please use the webcam system introduced with 1.9.0, this compatibility layer will be removed in a future release.
+2026-01-04 22:06:43,682 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2026-01-04 22:06:43,742 - octoprint.filemanager - INFO - Added 0 items from storage type "local" to analysis queue
+2026-01-04 22:06:44,748 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octoprint._http._tcp.local.' for _http._tcp.local.
+2026-01-04 22:06:45,586 - octoprint.plugins.discovery - INFO - Registered 'OctoPrint instance on octoprint._octoprint._tcp.local.' for _octoprint._tcp.local.
+2026-01-04 22:06:45,633 - octoprint.plugins.discovery - INFO - Registered OctoPrint instance on octoprint for SSDP
+2026-01-04 22:06:45,767 - octoprint.server - INFO - Listening on http://127.0.0.1:5000
+2026-01-04 22:06:45,826 - octoprint.plugins.pluginmanager - INFO - Loaded plugin repository data from disk, was still valid
+2026-01-04 22:06:45,956 - tornado.access - WARNING - 403 GET /sockjs/124/4e1dz3m2/websocket (2a01:5e0:f:51f0:112d:46b1:5e63:2c79) 9.21ms
+2026-01-04 22:06:46,035 - octoprint.server.util.sockjs - INFO - New connection from client: 2a01:5e0:f:51f0:112d:46b1:5e63:2c79
+2026-01-04 22:06:46,215 - octoprint.plugins.pluginmanager - INFO - Loaded notice data from disk, was still valid
+2026-01-04 22:06:46,244 - octoprint.plugins.pluginmanager - INFO - Saved a current plugin export to /home/g6seven/.octoprint/backup_plugin_export.json
+2026-01-04 22:06:46,261 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:06:46,722 - octoprint.util.pip - INFO - Using "/home/g6seven/oprint/bin/python -m pip" as command to invoke pip
+2026-01-04 22:06:46,723 - octoprint.util.pip - INFO - pip installs to /home/g6seven/oprint/lib/python3.9/site-packages (writable -> yes), --user flag needed -> no, virtual env -> yes
+2026-01-04 22:06:46,723 - octoprint.util.pip - INFO - ==> pip ok -> yes
+2026-01-04 22:06:46,730 - octoprint.plugins.softwareupdate - INFO - Minimum free storage across all update relevant locations is 16.4GB. That is considered sufficient for updating.
+2026-01-04 22:06:46,800 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:06:46,803 - octoprint.plugins.PrintJobHistory - INFO - on after startup done
+2026-01-04 22:06:46,803 - octoprint.plugins.SpoolManager - INFO - Plugin-State: filamentmanager=missing 
+2026-01-04 22:06:46,814 - octoprint.plugins.bedlevelvisualizer - INFO - OctoPrint-BedLevelVisualizer loaded!
+2026-01-04 22:06:46,814 - octoprint.plugins.bme_monitor - INFO - Bme_monitor Plugin startuje...
+2026-01-04 22:06:46,816 - octoprint.plugins.dashboard - INFO - Dashboard started
+2026-01-04 22:06:46,824 - octoprint.JsFrontendErrors(Dash) - INFO - Js Logger (Dash) started
+2026-01-04 22:06:46,824 - octoprint.plugins.enclosure - INFO - mqtt helpers not found. mqtt functions won't work
+2026-01-04 22:06:46,828 - octoprint.plugins.enclosure - INFO - Setting GPIO mode to BCM
+2026-01-04 22:06:46,828 - octoprint.plugins.enclosure - INFO - Setting GPIO pin 17 as OUTPUT with initial value: 0
+2026-01-04 22:06:46,840 - octoprint.plugins.uicustomizer - INFO - UI Customizer is initialized.
+2026-01-04 22:06:46,849 - octoprint.plugins.tracking - INFO - Sent tracking event ping, payload: {'octoprint_uptime': 10, 'printer_state': 'OFFLINE'}
+2026-01-04 22:06:46,858 - octoprint.server.preemptive_cache - INFO - Preemptively caching / (ui _default) for {'base_url': 'https://octopi.theotherside.work/', 'path': '/', 'query_string': 'l10n=en'}
+2026-01-04 22:06:46,907 - octoprint.plugins.tracking - INFO - Sent tracking event pong, payload: {'version': '1.11.4', 'os': 'linux', 'platform': 'Linux-6.1.21-v7l+-armv7l-with-glibc2.31', 'bits': 32, 'python': '3.9.2', 'pip': '22.3', 'cores': 4, 'freq': 1800.0, 'ram': 3970777088, 'pi_model': 'Raspberry Pi 4 Model B Rev 1.4', 'octopi_version': '1.0.0', 'octopiuptodate_build': '1.0.0-1.11.0-20250422120926', 'plugins': 'cancelobject:0.6.3,ultimakerformatpackage:1.1.0,dashboard:1.19.12,printscheduler:1.0.2,backupscheduler:0.2.6,spoolmanager:1.8.0a3,powerfailure:1.2.2,arc_welder:1.0.0+u.bb71e8f,bedlevelvisualizer:1.1.2,enclosure:4.13.2,consolidate_temp_control:0.1.10,octolapse:0.4.5,uicustomizer:0.1.9.91,printjobhistory:1.17.3,bme_monitor:0.1.0,firmwareupdater:1.14.1,prusalevelingguide:1.0.20,simpleemergencystop:1.0.7,costestimation:3.6.0,octoapp:3.0.2,prusaslicerthumbnails:1.2.0,prusa_mini_eta:0.1.4,preheat:0.8.0,printtimegenius:2.4.0,filemanager:0.1.6', 'achievements': 'the_wizard,tgif,all_beginnings_are_hard,one_small_step_for_man,the_organizer,early_bird,better_safe_than_sorry,adventurer,the_manufacturer_i,half_marathon,tinkerer,night_owl,the_collector_i,marathon,clean_house_i,santas_little_helper,happy_birthday_octoprint'}
+2026-01-04 22:06:46,986 - octoprint.plugins.tracking - INFO - Sent tracking event startup, payload: {'version': '1.11.4', 'os': 'linux', 'platform': 'Linux-6.1.21-v7l+-armv7l-with-glibc2.31', 'bits': 32, 'python': '3.9.2', 'pip': '22.3', 'cores': 4, 'freq': 1800.0, 'ram': 3970777088, 'pi_model': 'Raspberry Pi 4 Model B Rev 1.4', 'octopi_version': '1.0.0', 'octopiuptodate_build': '1.0.0-1.11.0-20250422120926'}
+2026-01-04 22:06:54,992 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/logitech_c920.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/logitech_c920.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 22:06:55,004 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/raspi_cam_v2.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/raspi_cam_v2.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 22:06:55,019 - octoprint.util.jinja - WARNING - Loading plugin template '/webcams/mjpg_streamer/logitech_c250.jinja2' from '/home/g6seven/oprint/lib/python3.9/site-packages/octoprint_octolapse/templates/webcams/mjpg_streamer/logitech_c250.jinja2' without plugin prefix, this is deprecated and will soon no longer be supported.
+2026-01-04 22:06:58,061 - octoprint.server.preemptive_cache - INFO - ... done in 11.20s
+2026-01-04 22:07:07,484 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:07,486 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:07,505 - octoprint.plugins.uicustomizer - INFO - Checking for updated themes
+2026-01-04 22:07:07,600 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:07,601 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:07,939 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:07,940 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:08,750 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:08,750 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:09,022 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:09,022 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:09,401 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:09,401 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:12,478 - tornado.access - WARNING - 403 GET /sockjs/422/e15ejncu/websocket (141.170.144.197) 2.77ms
+2026-01-04 22:07:12,573 - octoprint.server.util.sockjs - INFO - New connection from client: 141.170.144.197
+2026-01-04 22:07:12,587 - octoprint.plugins.PrintJobHistory - INFO - Plugin-State:
+| PreHeat=enabled (0.8.0)
+| filamentmanager=missing (None)
+| DisplayLayerProgress=missing (None)
+| SpoolManager=enabled (1.8.0a3)
+| UltimakerFormat=enabled (1.1.0)
+| PrusaSlicerThumbnail=enabled (1.2.0)
+| costestimation=enabled (3.6.0)
+
+2026-01-04 22:07:12,947 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:12,948 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:15,443 - octoprint.plugins.PrusaLevelingGuide - WARNING - The simple API of this plugin is relying on the default implementation of is_api_protected (newly added in OctoPrint 1.11.2), which in a future version will be switched from False to True for security reasons. Plugin authors should ensure they explicitly declare the API protection status in their SimpleApiPlugin mixin implementation. 
+2026-01-04 22:07:15,614 - octoprint.plugins.tracking - INFO - Sent tracking event webui_load, payload: {'browser_name': 'Firefox', 'browser_version': '146.0', 'os_name': 'Linux', 'os_version': 'x86_64'}
+2026-01-04 22:07:17,017 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:17,017 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:17,040 - octoprint.server.util.flask - INFO - Passively logging in user admin from 141.170.144.197
+2026-01-04 22:07:17,040 - octoprint.access.users - INFO - Logged in user: admin
+2026-01-04 22:07:18,361 - octoprint.server.util.sockjs - INFO - User admin logged in on the socket from client 141.170.144.197

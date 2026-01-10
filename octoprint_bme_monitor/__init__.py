@@ -29,7 +29,7 @@ class Bme_monitorPlugin(
         }
         # initialization of serial com
         try:
-            self.ser = serial.Serial('/dev/ttyACM0', 9600, timeout=1)
+            self.ser = serial.Serial('/dev/ttyACM1', 9600, timeout=1)
             # periodically read serial every 2.0 secconds
             self._timer = RepeatedTimer(2.0, self.read_serial_data)
             self._timer.start()
@@ -60,8 +60,8 @@ class Bme_monitorPlugin(
 
             except Exception as e:
                 self._logger.error(f"Chyba při čtení sériové linky: {e}")
-            
- # this will create huge spam in logs---           self._logger.info(parts)
+                self._logger.info(parts)
+# this will create huge spam in logs---           self._logger.info(parts)
 
 
 
